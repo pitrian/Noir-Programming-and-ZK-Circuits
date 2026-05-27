@@ -1,6 +1,6 @@
 # Noir Programming and ZK Circuits: A Practical Guide
 
-Chào mừng bạn đến với kho lưu trữ (repository) lộ trình học tập và thực hành về **Noir** — một ngôn ngữ lập trình đặc dụng (Domain-Specific Language) giúp xây dựng các mạch (circuits) Zero-Knowledge Proof (ZKP) một cách an toàn và hiệu quả.
+Chào mừng bạn đến với kho lưu trữ (repository) lộ trình học tập và thực hành về **Noir** — một ngôn ngữ lập trình đặc dụng (Domain-Specific Language) giúp xây dựng các mạch (circuits) Zero-Knowledge Proof (ZKP) một cách an sau và hiệu quả.
 
 Khóa học này tập trung vào tính thực tiễn, giúp phát triển kỹ năng lập trình ZK từ cơ bản đến nâng cao thông qua 4 dự án thực tế.
 
@@ -46,6 +46,14 @@ Dưới đây là lộ trình 4 phần của khóa học và trạng thái thự
 * **jq & libc++1:** Thư viện hỗ trợ xử lý JSON và runtime C++ cho Barretenberg trên môi trường Linux/Ubuntu (WSL).
 * **Foundry:** Môi trường phát triển, biên dịch và kiểm thử Smart Contract Solidity (Dùng cho Section 3 & 4).
 * **Node.js:** Để tích hợp mạch ZK vào dApp thông qua JavaScript/TypeScript (Dùng cho Section 3).
+
+---
+
+## 👤 Tác giả (Author)
+
+* **Họ và tên:** Ngô Minh Chung
+* **Vai trò:** Blockchain Developer / Smart Contract Security Auditor Intern
+* **Định hướng chuyên môn:** Tập trung nghiên cứu về bảo mật Blockchain, kiểm toán mã nguồn Smart Contract (Smart Contract Auditing) và ứng dụng mật mã học Zero-Knowledge Proofs (ZKP) vào các giao thức phi tập trung bảo mật quyền riêng tư.
 
 ---
 
