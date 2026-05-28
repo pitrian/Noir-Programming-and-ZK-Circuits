@@ -1,0 +1,8 @@
+[package]
+name = "zk_ecdsa"
+type = "bin"
+authors = ["Ngo Minh Chung"]
+compiler_version = ">=1.0.0-beta.21"
+
+[dependencies]
+# Trống hoàn toàn - vì mình dùng hàm tích hợp sẵn của hệ thống
