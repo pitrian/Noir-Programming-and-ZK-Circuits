@@ -1,0 +1,19 @@
+[profile.default]
+solc = "0.8.19" # Ép Foundry dùng bản Solc này
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+# Thêm/sửa 2 dòng này:
+optimizer = true
+optimizer_runs = 200
+via_ir = true
+
+# Bổ sung cấu hình tối ưu hóa Yul chi tiết dưới đây:
+[profile.default.optimizer_details]
+yul = true
+
+[profile.default.optimizer_details.yul_details]
+stack_allocation = true  # Ép trình biên dịch tự động tối ưu vị trí slot trên stack
+optimizer_steps = "dhfoDgvulfnTUtnf[gpectuamcaDaxcmvMucl]Ojccebju[hdca]f" # Chuỗi lệnh tối ưu hóa sâu của Solc
